@@ -3,36 +3,60 @@ body {
     padding: 0;
     font-family: 'Otomanopee One', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-p{
+
+p {
     font-size: 17px;
 }
 
-.tomato-color{
+h2 {
+    font-size: 40px;
+}
+
+.tomato-color {
     color: #FE492E;
 }
 
-.section-one{
+.section-one {
     display: flex;
     margin-bottom: 80px;
 }
 
-.s-one-half-width{
+.s-one-half-width {
     width: 40%;
     padding: 5px;
     margin: 5%;
 
 }
 
-.link-button{
+.link-button {
     text-decoration: none;
-    background-image: linear-gradient(to right, orange,tomato);
+    background-image: linear-gradient(to right, orange, tomato);
     display: inline-block;
     padding: 15px 40px;
     font-weight: 700;
     border-radius: 20px;
-    margin: 10px 0px;
-    color:white;
+    margin: 20px 0px;
+    color: white;
+}
+
+.section-two {
+    display: flex;
+    margin-bottom: 80px;
+    background-image: url(shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
+
+.s-two-half-width {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.s-two-half-width img {
+
+    width: 400px;
+    height: 600px;
 }
