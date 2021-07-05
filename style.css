@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 17px;
+}
+
+.tomato-color{
+    color: #FE492E;
+}
+
+.section-one{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.s-one-half-width{
+    width: 40%;
+    padding: 5px;
+    margin: 5%;
+
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange,tomato);
+    display: inline-block;
+    padding: 15px 40px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 10px 0px;
+    color:white;
+}
