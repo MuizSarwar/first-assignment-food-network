@@ -16,6 +16,7 @@ h2 {
     font-size: 40px;
 }
 
+
 .tomato-color {
     color: #FE492E;
 }
@@ -59,4 +60,48 @@ h2 {
 
     width: 400px;
     height: 600px;
+}
+
+.recipies-header{
+
+    text-align: center;
+}
+
+.flexible-container{
+    
+    display: flex;
+    margin-bottom: 50px;
+    padding: 70px;
+}
+
+.card-container{
+
+    margin: 20px;
+    
+    width:30%;
+    box-shadow:10px 15px 10px grey;
+    border-radius: 20px;
+
+
+}
+
+.inside-card {
+    margin: 15px;
+    text-align: center;
+
+}
+.inside-card img{
+    width:100%;
+
+
+}
+.grey-color{
+    color: grey;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
